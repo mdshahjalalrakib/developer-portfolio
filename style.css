@@ -6,7 +6,7 @@ body {
     color: orange;
 }
 
-Section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -17,7 +17,7 @@ Section {
 }
 
 .half-width img {
-    width: 120%;
+    width: 100%;
 }
 
 .link-button {
@@ -39,4 +39,8 @@ Section {
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.link-button:hover {
+    color: black;
 }
