@@ -8,6 +8,7 @@ body {
 
 Section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -32,4 +33,10 @@ Section {
 .top-banner {
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+
+.big-dream {
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
