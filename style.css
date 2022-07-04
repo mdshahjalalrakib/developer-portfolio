@@ -13,7 +13,8 @@ body {
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
+
 }
 
 .half-width img {
@@ -43,4 +44,34 @@ body {
 
 .link-button:hover {
     color: rgb(71, 69, 69);
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px yellowgreen;
+    border-radius: 10px;
+}
+
+.experience {
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#baby-developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
